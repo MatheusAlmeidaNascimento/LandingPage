@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #F9003D;
+    height: 60px;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+}
+
+.container{
+    width: 1200px;
+    /* background-color: aqua;*/
+    height: 20px;
+    margin: 0 auto;
+}
+
+
+.container_header{
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+
+
+
+.menu_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: bisque;*/
+    width: 590px;
+    
+
+}
+
+.menu_header a{
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;;
+    font-size: 18px;
+    
+}
+
+.container_banner{
+    position: relative;
+
+}
+
+.fundo_banner{
+    width: 100%;
+}
+
+.box_conteudo{
+    position: absolute;
+    top: 226px;
+    left: 120px;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    font-size: 96px;
+    color: white;
+    font-family: 'Bebas Neue', cursive;;;
+    text-transform: uppercase;
+    width: 545px;
+}
+
+.cor{
+    border-color: #ffaf00;
+}
+
+.box_conteudo span{
+    color: #F9003D;
+    font-size: 53px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.icone_mouse{
+    width: 37px;
+}
+
+.fundo{
+    width: 100%;
+}
+
+.h2_sobre{
+    text-transform: uppercase;
+    color: #F9003D;
+    font-family: 'Bebas Neue', cursive;;
+    font-size: 64px;
+    position: absolute;
+    top: 790px;
+}
+
+.sala{
+    position: absolute;
+    top: 900px;
+}
+
+.participantes{
+    font-size: 24px;
+    color: white;
+    font-family: 'Bebas Neue', cursive;;;
+    text-transform: uppercase;
+    position: absolute;
+    top: 895px;
+    left: 700px; 
+}
+
+.h3_sobre{
+    color: #ffaf00;
+    font-size: 64px;
+    font-family: 'Bebas Neue', cursive;;;
+    text-transform: uppercase;
+    width: 557px;
+    position: absolute;
+    top: 930px;
+    left: 700px;
+}
+
+.informação{
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    width: 592px;
+    top: 1110px;
+    left: 700px;
+}
+
+.info{
+    position: absolute;
+    top: 1392px;
+}
+
+.info2{
+    position:absolute;
+    top: 1400px;
+}
+
+.box_span{
+    border: 1px solid #A259F7;
+    height: 100px;
+    width: 289px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box_span span{
+    color:#A259F7;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.span1{
+    position:absolute;
+    top: 28px;
+    left: 55px;
+}
+
+.span2{
+    position: absolute;
+    top: 28px;
+    left: 490px;
+}
+
+.span3{
+    position: absolute;
+    top: 28px;
+    left: 920px;
+}
+
+.h2-1{ 
+        color:white;
+        font-size: 24px;
+        font-weight: 700;
+        font-family: 'Courier New', Courier, monospace;
+        text-transform: uppercase;
+        position: absolute;
+        left: 55px;
+}
+
+.h2-2{
+        color:white;
+        font-size: 24px;
+        font-weight: 700;
+        font-family: 'Courier New', Courier, monospace;
+        text-transform: uppercase;
+        position: absolute;
+        left: 490px;
+}
+
+.h2-3{
+        color:white;
+        font-size: 24px;
+        font-weight: 700;
+        font-family: 'Courier New', Courier, monospace;
+        text-transform: uppercase;
+        position: absolute;
+        left: 920px;
+       
+}
+
+
+.endereço{
+    color: #ffaf00;
+    font-size: 64px;
+    font-family: 'Bebas Neue', cursive;;;
+    text-transform: uppercase;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+
+.box_endereço{
+    background: #010010;
+    border: 2px solid #340B65;
+    width: 899px;
+    height: 203px;
+    display: flex;
+    position: absolute;
+    top: 300px;
+    left: 200px;
+}
+
+.box_endereço p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #A259F7;
+    width: 435px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 75px;
+}
+
+.rodapé{
+    background-color: #F9003D;
+    height: 82px;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+    position: absolute;
+    top: 550px;
+    
+    color:white;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
